@@ -1,0 +1,29 @@
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+
+# Common mobile and JavaScript build artifacts
+node_modules/
+dist/
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+
+# Tests and logs
+coverage/
+*.log
