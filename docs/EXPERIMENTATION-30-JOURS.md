@@ -4,18 +4,35 @@
 
 Le créateur de Démotivateur sera son premier sujet d'expérimentation. L'objectif n'est pas de prétendre démontrer scientifiquement l'efficacité du produit sur une population entière, mais d'observer si un agent de confrontation personnalisé peut l'aider à tenir deux engagements réels dans un quotidien déjà chargé.
 
-Date de lancement : **[à compléter]**  
-Date de fin : **[à compléter]**
+Date de lancement : **9 septembre 2026**  
+Date de fin : **8 octobre 2026**
+
+## Baseline avant expérimentation
+
+Les publications liées au stage ont commencé le 18 août 2026. Entre cette date et le 8 septembre, plusieurs calendriers éditoriaux, textes et idées visuelles ont été préparés avec des assistants IA. Malgré cette préparation, plusieurs publications prévues n'ont pas été exécutées.
+
+Les premières observations sont :
+
+- le manque d'idées n'est pas le blocage principal ;
+- planifier simultanément Facebook, Instagram et X augmente rapidement la charge perçue ;
+- le choix d'une photo, le fact-checking et l'adaptation à chaque réseau retardent le passage à l'action ;
+- un texte prêt peut encore être rejeté parce qu'il paraît trop formel ou générique ;
+- un repartage permet de rester visible, mais ne construit pas la même voix qu'une publication personnelle ;
+- les contenus liés au stage ajoutent des contrôles légitimes de confidentialité, d'autorisation et d'exactitude.
+
+Cette période sert de comparaison qualitative. Les données n'ayant pas été enregistrées quotidiennement avec le même protocole, elle ne sera pas transformée artificiellement en série statistique complète.
 
 ## Les deux objectifs
 
 ### Objectif principal — publier quotidiennement
 
-Publier chaque jour un contenu original utile à la construction d'une audience engagée autour de Zangafigue.
+Publier chaque jour au moins un contenu original utile à la construction d'une audience engagée autour de Zangafigue. La plateforme principale peut varier selon le calendrier éditorial et la nature du contenu.
 
 Une publication est validée lorsqu'elle est réellement mise en ligne. Préparer un brouillon ne suffit pas. Une journée manquée est enregistrée comme telle : publier deux fois le lendemain ne réécrit pas l'historique.
 
 Le contenu peut appartenir aux piliers habituels de la marque personnelle. Démotivateur devient un fil narratif régulier, pas l'unique sujet de la page.
+
+Une adaptation substantielle pour un second réseau est enregistrée séparément. Un simple copier-coller ou repartage n'est pas compté comme une nouvelle publication originale. Les obligations contractuelles propres au stage sont suivies en parallèle : atteindre le minimum quotidien de l'expérience ne les remplace pas.
 
 ### Objectif secondaire — construire Démotivateur
 
