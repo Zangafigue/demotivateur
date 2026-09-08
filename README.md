@@ -2,9 +2,11 @@
 
 > L'application qui ne croit pas en toi — jusqu'à ce que tu lui donnes tort.
 
-Démotivateur est un concept d'application mobile de développement personnel à contre-courant. Là où les coachs et les applications classiques distribuent des encouragements génériques, Démotivateur utilise la provocation, l'ironie et le doute comme déclencheurs d'action.
+Démotivateur est un concept d'agent personnel adaptatif à contre-courant. Là où les coachs et les applications classiques distribuent des encouragements génériques, Démotivateur utilise la provocation, l'ironie et le doute comme déclencheurs d'action.
 
-L'application ne promet pas que « tu peux tout faire ». Elle observe ce que tu annonces, ce que tu accomplis réellement et te confronte à l'écart entre les deux. Son objectif caché reste positif : pousser l'utilisateur à progresser, précisément parce qu'il veut prouver à l'application qu'elle a tort.
+L'agent ne promet pas que « tu peux tout faire ». Il observe ce que tu annonces, ce que tu accomplis réellement et te confronte à l'écart entre les deux. Son objectif caché reste positif : pousser l'utilisateur à progresser, précisément parce qu'il veut lui prouver qu'il a tort.
+
+Ce n'est ni un simple générateur de phrases sarcastiques, ni un assistant qui déguise des encouragements derrière un double jeu. Il construit progressivement un modèle explicable de l'utilisateur : objectifs, rythme de vie, engagements, obstacles récurrents, réactions aux interventions et limites à ne pas franchir. Il peut commencer avec peu de contexte, mais devient plus pertinent à mesure que l'utilisateur lui fournit des informations et corrige ses interprétations.
 
 ## Le constat
 
@@ -51,6 +53,10 @@ La difficulté progresse avec l'utilisateur. Une issue de secours reste toujours
 ### Une personnalité qui évolue
 
 Le Démotivateur apprend ce qui déclenche réellement une action : type de message, moment, intensité et format de défi. Il ne cherche pas à maximiser les notifications, mais le taux de passage à l'action avec le minimum d'interruptions.
+
+Sa boucle d'apprentissage est : **observer, formuler une hypothèse, intervenir, mesurer la réaction, puis ajuster**. Ses déductions importantes doivent rester visibles, modifiables et supprimables par l'utilisateur.
+
+Le positionnement visé est celui d'un agent de confrontation comportementale inspiré des sciences de la motivation. Démotivateur ne se présente pas comme un psychologue, ne pose aucun diagnostic et ne remplace jamais un professionnel de santé.
 
 ## MVP
 
@@ -153,7 +159,9 @@ Le succès n'est pas « envoyer plus ». Le succès est de devenir progressiveme
 
 ## Statut
 
-Le projet est au stade de concept. Ce dépôt sert de mémoire produit et accueillera les premiers prototypes, décisions techniques et retours utilisateurs.
+Le projet est au stade de concept et d'expérimentation personnelle. Son créateur sera le premier utilisateur pendant une expérience de 30 jours, construite autour de deux objectifs liés : publier quotidiennement et faire avancer l'agent sans sacrifier ses obligations de stage.
+
+Le protocole public est décrit dans [`docs/EXPERIMENTATION-30-JOURS.md`](docs/EXPERIMENTATION-30-JOURS.md). Ce dépôt sert de mémoire produit et accueillera les premiers prototypes, décisions techniques et retours de la communauté.
 
 ## Contribution
 
