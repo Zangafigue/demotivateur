@@ -28,6 +28,8 @@ Cette période sert de comparaison qualitative. Les données n'ayant pas été e
 
 Publier chaque jour au moins un contenu original utile à la construction d'une audience engagée autour de Zangafigue. La plateforme principale peut varier selon le calendrier éditorial et la nature du contenu.
 
+Cette fréquence quotidienne est un engagement personnel choisi pour l'expérience. Les pages du contrat de stage examinées imposent des publications régulières et un article Medium par mois, mais ne mentionnent pas une publication chaque jour.
+
 Une publication est validée lorsqu'elle est réellement mise en ligne. Préparer un brouillon ne suffit pas. Une journée manquée est enregistrée comme telle : publier deux fois le lendemain ne réécrit pas l'historique.
 
 Le contenu peut appartenir aux piliers habituels de la marque personnelle. Démotivateur devient un fil narratif régulier, pas l'unique sujet de la page.
@@ -43,7 +45,7 @@ Les journées les plus chargées conservent une action atomique : clarifier une 
 ## Contraintes réelles
 
 - Le stage reste prioritaire pendant ses plages de travail.
-- La publication quotidienne est une obligation à organiser, pas une excuse pour arrêter le produit.
+- La publication quotidienne est un engagement personnel à organiser, pas une excuse pour arrêter le produit.
 - Le développement du produit ne doit pas devenir une excuse pour publier du contenu vide ou répétitif.
 - Le repos et le sommeil font partie des conditions de progression ; leur dégradation n'est pas comptée comme une victoire de l'agent.
 - Toute publication liée au stage respecte les autorisations et la confidentialité de SCoPE, WoeLab et des personnes concernées.
