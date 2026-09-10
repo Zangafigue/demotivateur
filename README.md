@@ -174,7 +174,9 @@ Un [prototype local de l'onboarding](prototype/onboarding/) permet déjà de par
 
 ## Contribution
 
-Les idées sont bienvenues, en particulier sur l'expérience mobile, la psychologie comportementale, l'accessibilité, les contraintes de notifications et la sécurité du ton. Avant toute contribution de code, une charte éditoriale et un guide de contribution devront être ajoutés.
+Les idées sont bienvenues, en particulier sur l'expérience mobile, la psychologie comportementale, l'accessibilité, les contraintes de notifications et la sécurité du ton.
+
+Les contributions externes passent exclusivement par un **fork** et une **pull request relue avant fusion**. Consultez le [guide de contribution](CONTRIBUTING.md) avant de commencer. L'absence actuelle de licence peut reporter la fusion de code externe jusqu'à clarification des droits.
 
 ## Licence
 
