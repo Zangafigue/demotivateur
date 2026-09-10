@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Prototype local du parcours d'onboarding de Démotivateur."
+    />
+    <title>Démotivateur — Prototype onboarding</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">Prototype local</p>
+          <h1>Démotivateur</h1>
+        </div>
+        <button id="reset-button" class="text-button" type="button">Recommencer</button>
+      </header>
+
+      <div class="progress-region" aria-live="polite">
+        <div class="progress-copy">
+          <span id="step-label">Étape 1 sur 8</span>
+          <span id="progress-purpose">Comprendre le contrat</span>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+      </div>
+
+      <form id="onboarding-form" novalidate>
+        <section class="step is-active" data-step="0" data-purpose="Comprendre le contrat">
+          <p class="step-kicker">Avant de commencer</p>
+          <h2>Je ne vais pas te promettre que tu peux tout faire.</h2>
+          <p class="lead">
+            Je vais retenir ce que tu annonces, observer ce que tu fais réellement et te
+            confronter à l'écart. Tu gardes le contrôle du ton, des horaires et des données.
+          </p>
+          <div class="notice">
+            <strong>Ce prototype ne pose aucun diagnostic.</strong>
+            Il ne remplace pas un professionnel de santé et ne génère encore aucune
+            notification.
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="contractAccepted" required />
+            <span>J'accepte de tester une confrontation consentie et révocable.</span>
+          </label>
+        </section>
+
+        <section class="step" data-step="1" data-purpose="Choisir un objectif">
+          <p class="step-kicker">Ton objectif actuel</p>
+          <h2>Sur quoi veux-tu arrêter de te raconter des histoires ?</h2>
+          <fieldset class="choice-grid">
+            <legend class="sr-only">Catégorie de l'objectif</legend>
+            <label class="choice"><input type="radio" name="goalCategory" value="Études ou travail" required /><span>Études ou travail</span></label>
+            <label class="choice"><input type="radio" name="goalCategory" value="Projet personnel" /><span>Projet personnel</span></label>
+            <label class="choice"><input type="radio" name="goalCategory" value="Activité physique" /><span>Activité physique</span></label>
+            <label class="choice"><input type="radio" name="goalCategory" value="Création de contenu" /><span>Création de contenu</span></label>
+            <label class="choice"><input type="radio" name="goalCategory" value="Routine quotidienne" /><span>Routine quotidienne</span></label>
+            <label class="choice"><input type="radio" name="goalCategory" value="Autre" /><span>Autre</span></label>
+          </fieldset>
+          <label class="field">
+            <span>Donne-lui un nom précis <small>(facultatif)</small></span>
+            <input name="goalLabel" type="text" maxlength="80" placeholder="Ex. Publier un contenu original chaque jour" />
+          </label>
+        </section>
+
+        <section class="step" data-step="2" data-purpose="Décrire la situation réelle">
+          <p class="step-kicker">Pas l'intention. La situation.</p>
+          <h2>Où en es-tu aujourd'hui ?</h2>
+          <fieldset class="choice-list">
+            <legend class="sr-only">Situation actuelle</legend>
+            <label class="choice"><input type="radio" name="currentState" value="Je prépare encore" required /><span>Je prépare encore</span></label>
+            <label class="choice"><input type="radio" name="currentState" value="J'ai commencé" /><span>J'ai commencé</span></label>
+            <label class="choice"><input type="radio" name="currentState" value="J'avance de façon irrégulière" /><span>J'avance de façon irrégulière</span></label>
+            <label class="choice"><input type="radio" name="currentState" value="Je reporte le passage à l'action" /><span>Je reporte le passage à l'action</span></label>
+            <label class="choice"><input type="radio" name="currentState" value="J'ai arrêté et je veux reprendre" /><span>J'ai arrêté et je veux reprendre</span></label>
+          </fieldset>
+        </section>
+
+        <section class="step" data-step="3" data-purpose="Écarter ce qui échoue déjà">
+          <p class="step-kicker">Les rappels qui glissent</p>
+          <h2>Pourquoi les rappels classiques ne fonctionnent-ils pas sur toi ?</h2>
+          <p class="hint">Choisis au moins une réponse.</p>
+          <fieldset class="choice-list">
+            <legend class="sr-only">Raisons d'échec des rappels</legend>
+            <label class="choice"><input type="checkbox" name="failureReasons" value="Ils sont trop génériques" /><span>Ils sont trop génériques</span></label>
+            <label class="choice"><input type="checkbox" name="failureReasons" value="Je les oublie aussitôt" /><span>Je les oublie aussitôt</span></label>
+            <label class="choice"><input type="checkbox" name="failureReasons" value="Ils arrivent au mauvais moment" /><span>Ils arrivent au mauvais moment</span></label>
+            <label class="choice"><input type="checkbox" name="failureReasons" value="Ils ne parlent pas du vrai blocage" /><span>Ils ne parlent pas du vrai blocage</span></label>
+            <label class="choice"><input type="checkbox" name="failureReasons" value="Je sais quoi faire, mais je ne le fais pas" /><span>Je sais quoi faire, mais je ne le fais pas</span></label>
+            <label class="choice"><input type="checkbox" name="failureReasons" value="Ils ajoutent une pression inutile" /><span>Ils ajoutent une pression inutile</span></label>
+          </fieldset>
+        </section>
+
+        <section class="step" data-step="4" data-purpose="Tester les déclencheurs">
+          <p class="step-kicker">Premières hypothèses</p>
+          <h2>Qu'est-ce qui risque le plus de te faire agir ?</h2>
+          <p class="hint">Deux choix maximum. Nous les traiterons comme des hypothèses, pas comme des vérités.</p>
+          <fieldset class="choice-list">
+            <legend class="sr-only">Déclencheurs préférés</legend>
+            <label class="choice"><input type="checkbox" name="triggers" value="Rappeler exactement ma promesse" /><span>Rappeler exactement ma promesse</span></label>
+            <label class="choice"><input type="checkbox" name="triggers" value="Montrer l'écart entre mon plan et mes actes" /><span>Montrer l'écart entre mon plan et mes actes</span></label>
+            <label class="choice"><input type="checkbox" name="triggers" value="Me lancer un défi court" /><span>Me lancer un défi court</span></label>
+            <label class="choice"><input type="checkbox" name="triggers" value="Utiliser l'ironie" /><span>Utiliser l'ironie</span></label>
+            <label class="choice"><input type="checkbox" name="triggers" value="Me demander une preuve" /><span>Me demander une preuve</span></label>
+            <label class="choice"><input type="checkbox" name="triggers" value="Montrer les conséquences d'un report" /><span>Montrer les conséquences d'un report</span></label>
+          </fieldset>
+        </section>
+
+        <section class="step" data-step="5" data-purpose="Fixer le ton">
+          <p class="step-kicker">Jusqu'où puis-je aller ?</p>
+          <h2>Choisis après avoir vu les exemples.</h2>
+          <fieldset class="tone-grid">
+            <legend class="sr-only">Niveau d'intensité</legend>
+            <label class="tone-card">
+              <input type="radio" name="intensity" value="Taquin" required />
+              <span><strong>Taquin</strong><small>« Ton planning est prêt. Lui au moins. »</small></span>
+            </label>
+            <label class="tone-card">
+              <input type="radio" name="intensity" value="Piquant" />
+              <span><strong>Piquant</strong><small>« Tu avais promis vingt minutes. Pour l'instant, tu as surtout promis. »</small></span>
+            </label>
+            <label class="tone-card">
+              <input type="radio" name="intensity" value="Sans pitié" />
+              <span><strong>Sans pitié</strong><small>« L'échéance est passée. Montre une preuve ou assume que tu as encore choisi de reporter. »</small></span>
+            </label>
+          </fieldset>
+          <div class="notice">
+            Même au niveau maximal, aucune attaque sur l'identité, le corps, la santé,
+            les traumatismes, les finances ou les relations.
+          </div>
+        </section>
+
+        <section class="step" data-step="6" data-purpose="Définir une action vérifiable">
+          <p class="step-kicker">Premier engagement</p>
+          <h2>Qu'est-ce qui doit réellement exister aujourd'hui ?</h2>
+          <label class="field">
+            <span>Action observable</span>
+            <input name="actionLabel" type="text" maxlength="120" required placeholder="Ex. Publier le sondage sur Facebook" />
+          </label>
+          <div class="field-row">
+            <label class="field">
+              <span>Avant</span>
+              <input name="deadline" type="time" required />
+            </label>
+            <label class="field">
+              <span>Rappels maximum</span>
+              <select name="maxReminders">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+              </select>
+            </label>
+          </div>
+          <fieldset class="choice-list">
+            <legend>Preuve attendue</legend>
+            <label class="choice"><input type="radio" name="proofType" value="Case cochée manuellement" required /><span>Case cochée manuellement</span></label>
+            <label class="choice"><input type="radio" name="proofType" value="Minuterie terminée" /><span>Minuterie terminée</span></label>
+            <label class="choice"><input type="radio" name="proofType" value="Lien ou fichier créé" /><span>Lien ou fichier créé</span></label>
+            <label class="choice"><input type="radio" name="proofType" value="Photo conservée localement" /><span>Photo conservée localement</span></label>
+          </fieldset>
+        </section>
+
+        <section class="step" data-step="7" data-purpose="Confirmer le contrat">
+          <p class="step-kicker">Résumé vérifiable</p>
+          <h2>Voici ce que tu demandes réellement à l'agent.</h2>
+          <dl id="summary" class="summary"></dl>
+          <div class="preview">
+            <span>Premier message possible</span>
+            <blockquote id="message-preview"></blockquote>
+          </div>
+          <div class="notice">
+            Toutes les réponses restent dans ce navigateur. Ce prototype n'envoie aucune
+            donnée et ne programme encore aucune notification.
+          </div>
+        </section>
+
+        <p id="form-error" class="form-error" role="alert"></p>
+
+        <footer class="navigation">
+          <button id="back-button" class="secondary-button" type="button" disabled>Retour</button>
+          <button id="next-button" class="primary-button" type="button">Continuer</button>
+        </footer>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

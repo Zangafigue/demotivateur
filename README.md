@@ -163,6 +163,15 @@ Le projet est au stade de concept et d'expérimentation personnelle. Son créate
 
 Le protocole public est décrit dans [`docs/EXPERIMENTATION-30-JOURS.md`](docs/EXPERIMENTATION-30-JOURS.md). Ce dépôt sert de mémoire produit et accueillera les premiers prototypes, décisions techniques et retours de la communauté.
 
+## Documentation produit
+
+- [Expérimentation « utilisateur zéro »](docs/EXPERIMENTATION-30-JOURS.md) — protocole, mesures et critères de lecture sur 30 jours.
+- [Journal de recherche utilisateur](docs/JOURNAL-RECHERCHE.md) — observations agrégées, limites des tests et décisions produit.
+- [Onboarding MVP](docs/ONBOARDING-MVP.md) — parcours progressif, consentement, données minimales et première action.
+- [Moteur d'intervention MVP](docs/SPEC-MOTEUR-MVP.md) — états d'un engagement, sélection des messages, mesures et règles de sécurité.
+
+Un [prototype local de l'onboarding](prototype/onboarding/) permet déjà de parcourir les premiers choix dans un navigateur, sans compte, serveur ou transfert de données.
+
 ## Contribution
 
 Les idées sont bienvenues, en particulier sur l'expérience mobile, la psychologie comportementale, l'accessibilité, les contraintes de notifications et la sécurité du ton. Avant toute contribution de code, une charte éditoriale et un guide de contribution devront être ajoutés.
